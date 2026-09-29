@@ -11,6 +11,8 @@ class Employee(models.Model):
         max_digits=10,
     )
     department = models.CharField(max_length=100)
+    photo = models.ImageField(upload_to="employees/", blank=True, null=True)
+    description = models.TextField(default="")
 
     def __str__(self):
         return self.name
