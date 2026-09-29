@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block title %}Projects - Worktime{% endblock %}
+
+{% block content %}
+
+<div class="header">
+    <h1>Projects</h1>
+    <p>Manage your company's projects</p>
+</div>
+
+<div class="cards">
+
+    {% for project in projects %}
+
+        <div class="card">
+
+            <h3>{{ project.project_name }}</h3>
+
+            <p>
+                <strong>Start:</strong>
+                {{ project.start_date }}
+            </p>
+
+            <p>
+                <strong>End:</strong>
+                {{ project.end_date }}
+            </p>
+
+            <p>
+                <strong>Employees:</strong>
+                {{ project.workers.count }}
+            </p>
+
+            <span class="badge">
+                Active project
+            </span>
+
+        </div>
+
+    {% empty %}
+
+        <p>No projects registered.</p>
+
+    {% endfor %}
+
+</div>
+
+{% endblock %}

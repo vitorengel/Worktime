@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block title %}{{ employee.name }} - Worktime{% endblock %}
+
+{% block content %}
+
+<div class="header">
+    <h1>{{ employee.name }}</h1>
+    <p>Employee details</p>
+</div>
+
+<div class="cards">
+
+    <div class="card">
+        <h3>Personal Information</h3>
+
+        <p><strong>Name:</strong> {{ employee.name }}</p>
+        <p><strong>Email:</strong> {{ employee.email }}</p>
+        <p><strong>Birthday:</strong> {{ employee.birthday }}</p>
+    </div>
+
+    <div class="card">
+        <h3>Work Information</h3>
+
+        <p><strong>Department:</strong> {{ employee.department }}</p>
+        <p><strong>Start date:</strong> {{ employee.start_date }}</p>
+        <p><strong>Hourly rate:</strong> €{{ employee.hourly_rate }}</p>
+    </div>
+
+    <div class="card">
+        <h3>Projects</h3>
+
+        {% for project in employee.projects.all %}
+            <p>{{ project.project_name }}</p>
+        {% empty %}
+            <p>No projects assigned.</p>
+        {% endfor %}
+
+    </div>
+
+</div>
+
+{% endblock %}

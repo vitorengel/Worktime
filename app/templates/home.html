@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard - Worktime{% endblock %}
+
+{% block content %}
+
+<div class="header">
+    <h1>Dashboard</h1>
+    <p>Welcome to Worktime</p>
+</div>
+
+<div class="cards">
+
+    <a href="{% url 'employee_list' %}" class="card">
+        <div class="avatar">👥</div>
+
+        <h3>Employees</h3>
+
+        <p>
+            Manage employees and their information.
+        </p>
+    </a>
+
+
+    <a href="{% url 'project_list' %}" class="card">
+        <div class="avatar">📁</div>
+
+        <h3>Projects</h3>
+
+        <p>
+            Manage projects and assigned employees.
+        </p>
+    </a>
+
+</div>
+
+{% endblock %}

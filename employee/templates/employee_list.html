@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}Employees - Worktime{% endblock %}
+
+{% block content %}
+
+<div class="header">
+    <h1>Employees</h1>
+    <p>Manage your company's employees</p>
+</div>
+
+<div class="cards">
+
+    {% for employee in employees %}
+
+        <a href="{% url 'employee_detail' employee.id %}" class="card">
+
+            <div class="avatar">
+                {{ employee.name|first|upper }}
+            </div>
+
+            <h3>{{ employee.name }}</h3>
+
+            <p>{{ employee.department }}</p>
+
+            <p>{{ employee.email }}</p>
+
+            <span class="badge">
+                View employee
+            </span>
+
+        </a>
+
+    {% empty %}
+
+        <p>No employees registered.</p>
+
+    {% endfor %}
+
+</div>
+
+{% endblock %}
