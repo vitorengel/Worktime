@@ -1,0 +1,16 @@
+﻿name,hire_date,birthday,email,hourly_rate,department
+Lucas Almeida,2026-01-10,1992-04-15,lucas.almeida@example.com,28.50,Electrical
+Mariana Costa,2026-02-03,1995-08-22,mariana.costa@example.com,31.00,Engineering
+Rafael Martins,2026-01-20,1989-11-10,rafael.martins@example.com,26.75,Maintenance
+Camila Ferreira,2026-03-12,1997-02-18,camila.ferreira@example.com,29.50,Production
+Bruno Santos,2026-02-17,1991-06-30,bruno.santos@example.com,27.25,Automation
+Juliana Oliveira,2026-04-01,1996-09-12,juliana.oliveira@example.com,30.00,Engineering
+Diego Rodrigues,2026-01-05,1988-12-03,diego.rodrigues@example.com,32.50,Maintenance
+Ana Martins,2026-05-11,1998-03-25,ana.martins@example.com,25.50,Production
+Felipe Souza,2026-03-22,1993-07-14,felipe.souza@example.com,29.00,Automation
+Beatriz Lima,2026-02-28,1994-01-09,beatriz.lima@example.com,27.80,Quality
+Gustavo Pereira,2026-04-18,1990-10-27,gustavo.pereira@example.com,30.75,Electrical
+Larissa Gomes,2026-05-02,1997-05-19,larissa.gomes@example.com,26.50,Production
+Thiago Barbosa,2026-01-15,1987-08-08,thiago.barbosa@example.com,33.00,Engineering
+Renata Rocha,2026-03-05,1995-12-21,renata.rocha@example.com,28.25,Quality
+André Nunes,2026-04-25,1992-06-06,andre.nunes@example.com,31.50,Automation

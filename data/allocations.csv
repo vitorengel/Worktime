@@ -1,0 +1,23 @@
+﻿employee_email,project_name,date,start_time,end_time,status
+lucas.almeida@example.com,Factory Line Upgrade,2026-10-05,08:00,17:00,allocated
+lucas.almeida@example.com,Factory Line Upgrade,2026-10-06,08:00,17:00,allocated
+lucas.almeida@example.com,Factory Line Upgrade,2026-10-07,08:00,12:00,allocated
+mariana.costa@example.com,Robot Cell Installation,2026-10-07,08:00,17:00,allocated
+mariana.costa@example.com,Robot Cell Installation,2026-10-08,08:00,17:00,allocated
+rafael.martins@example.com,Packaging Machine Maintenance,2026-10-05,08:00,17:00,allocated
+rafael.martins@example.com,Packaging Machine Maintenance,2026-10-06,08:00,17:00,allocated
+camila.ferreira@example.com,Production Line Inspection,2026-10-19,08:00,16:00,allocated
+camila.ferreira@example.com,Production Line Inspection,2026-10-20,08:00,16:00,allocated
+bruno.santos@example.com,Warehouse Automation,2026-10-12,09:00,17:00,allocated
+bruno.santos@example.com,Warehouse Automation,2026-10-13,09:00,17:00,allocated
+juliana.oliveira@example.com,Robot Cell Installation,2026-10-09,08:00,17:00,allocated
+diego.rodrigues@example.com,HVAC Preventive Maintenance,2026-10-26,08:00,17:00,allocated
+diego.rodrigues@example.com,HVAC Preventive Maintenance,2026-10-27,08:00,17:00,allocated
+ana.martins@example.com,Production Line Inspection,2026-10-21,08:00,16:00,allocated
+felipe.souza@example.com,Warehouse Automation,2026-10-14,08:00,17:00,allocated
+beatriz.lima@example.com,Production Line Inspection,2026-10-22,08:00,16:00,allocated
+gustavo.pereira@example.com,Factory Line Upgrade,2026-10-08,08:00,17:00,allocated
+larissa.gomes@example.com,Production Line Inspection,2026-10-23,08:00,16:00,allocated
+thiago.barbosa@example.com,New Equipment Commissioning,2026-11-09,08:00,17:00,allocated
+renata.rocha@example.com,New Equipment Commissioning,2026-11-10,08:00,17:00,allocated
+andre.nunes@example.com,Conveyor System Upgrade,2026-11-02,08:00,17:00,allocated

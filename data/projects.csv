@@ -1,0 +1,9 @@
+﻿name,start_date,end_date,materials,permissions
+Factory Line Upgrade,2026-10-01,2026-10-16,Electrical cables; sensors; connectors,true
+Packaging Machine Maintenance,2026-10-05,2026-10-12,Bearings; pneumatic fittings; belts,true
+Robot Cell Installation,2026-10-07,2026-10-23,Robot cables; safety sensors; brackets,true
+Warehouse Automation,2026-10-12,2026-10-30,Barcode scanners; PLC modules; cables,true
+Production Line Inspection,2026-10-19,2026-10-23,Inspection tools; labels; PPE,true
+HVAC Preventive Maintenance,2026-10-26,2026-11-06,Filters; belts; electrical components,true
+Conveyor System Upgrade,2026-11-02,2026-11-13,Motors; rollers; sensors,true
+New Equipment Commissioning,2026-11-09,2026-11-20,Tools; cables; pneumatic components,true
